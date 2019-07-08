@@ -1,0 +1,35 @@
+body {color: #333;font-family:"Microsoft YaHei",微软雅黑,"宋体",Arial,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu; font-size: 14px; line-height: 18px; margin: 0; padding: 0;width:100%;}
+h1, h2, h3, h4, h5, h6, p, form { margin: 0; padding: 0; font-weight: normal;}
+ul, li, menu, ol, dd, dl, dt { list-style: none outside none; margin: 0; padding: 0; }
+img, a { border: medium none; color: #333; text-decoration: none; }
+em,i { font-style: normal; }
+table td {border-collapse: collapse;padding:0;margin:0}
+a:hover { color: #337ab7; }
+.text { text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+input[type=submit], input[type=button], button {cursor:pointer}
+.hided{display: none;}
+.clear{clear: both;height: 0.5px;overflow: hidden;padding: 0;margin: 0;}
+
+html,body{width: 100%;height: 100%;}
+body{background-size: 100%}
+
+#Main{}
+.page-block{width: 1200px;margin: 0 auto;}
+.pages{height: 1033px;background: url(../img/page-1.png) no-repeat 50% 50%;background-size: auto 100%;}
+#Logo{display: block;padding-top: 65px;}
+.qr-box{padding-top: 420px;color: #fff;width: 188px;text-align: center;font-size: 14px;}
+.qr-img{display: block;max-width: 100%;margin:0 auto 8px;border-radius: 10px;}
+
+.page-2{background-image: url(../img/page-2.png);}
+
+.page-3{background: url(../img/page-3.png) no-repeat 50% 0 #d5e6f0;height: 800px;}
+#Contact-box{padding: 80px 0 0 445px;width: 757px;}
+#FormBox{position: relative;}
+.contact-block{padding-bottom: 20px;}
+.c-title{color: #2b2b2b;font-size: 22px;padding-bottom: 8px;}
+.contact-input{width: 95%;height: 48px;line-height: 48px;background: #FFFFFF;border: none;outline: none;font-size: 22px;padding: 0 2.5%;}
+.submit{overflow: hidden;min-height: 50px;}
+.submit-btn{background: #1191d0;color: #FFFFFF;line-height: 1.4;padding: 5px 50px;font-size: 22px;border: none;float: right;display:block;}
+.submit-btn:hover{color: #FFFFFF;}
+.text-area{height: 155px;line-height: 1.2;padding: 10px 2.5%;}
+#ErrTip{display: none; position: absolute;z-index: 2;width: 95%;padding: 10px 2.5%;bottom:10%;left: 0;background:rgba(250,0,0,0.6);text-align: center;color: #fff;font-size:24px;line-height: 1.4;}
