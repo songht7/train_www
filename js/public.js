@@ -47,7 +47,7 @@ function sendMail() {
 		var result = {};
 		var SendMail = {
 			"url": "http://www.spacehu.com/space/mail/mail.php?leo=",
-			"email": ["stk@meetji.com"],
+			"email": ["public@jobpgroup.com"],
 			"testEmail": ["407794660@qq.com"]
 		}
 		$.post({
