@@ -32,4 +32,10 @@ body{background-size: 100%}
 .submit-btn{background: #1191d0;color: #FFFFFF;line-height: 1.4;padding: 5px 50px;font-size: 22px;border: none;float: right;display:block;}
 .submit-btn:hover{color: #FFFFFF;}
 .text-area{height: 155px;line-height: 1.2;padding: 10px 2.5%;}
+
+.page-footer{
+	height: auto;background-image: none;background-color:#1191D0;
+}
+.copyright{text-align: center;padding: 50px 0;color: #FFFFFF;}
+.copyright a{color: #FFFFFF}
 #ErrTip{display: none; position: absolute;z-index: 2;width: 95%;padding: 10px 2.5%;bottom:10%;left: 0;background:rgba(250,0,0,0.6);text-align: center;color: #fff;font-size:24px;line-height: 1.4;}
