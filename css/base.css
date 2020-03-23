@@ -15,7 +15,7 @@ body{background-size: 100%}
 
 #Main{}
 .page-block{max-width: 1200px;margin: 0 auto;}
-.pages{height: 1033px;background: url(../img/page-1.png) no-repeat 50% 50%;background-size: auto 100%;}
+.pages{height: 1033px;background: url(../img/page-1.png) no-repeat 50% 50%;background-size: cover;}
 #Logo{display: block;padding-top: 65px;}
 .qr-box{padding-top: 420px;color: #fff;width: 188px;text-align: center;font-size: 14px;}
 .qr-img{display: block;max-width: 100%;margin:0 auto 8px;border-radius: 10px;}
@@ -39,3 +39,19 @@ body{background-size: 100%}
 .copyright{text-align: center;padding: 50px 0;color: #FFFFFF;}
 .copyright a{color: #FFFFFF}
 #ErrTip{display: none; position: absolute;z-index: 2;width: 95%;padding: 10px 2.5%;bottom:10%;left: 0;background:rgba(250,0,0,0.6);text-align: center;color: #fff;font-size:24px;line-height: 1.4;}
+.job-title{display: none;font-size:32px;line-height: 2;}
+@media screen and (max-width:1230px ) {
+	.pages{height: 500px;}
+	.page-block{width: 90%;}
+	.page-footer{
+		height: auto;
+	}
+	.page-3{background: #d5e6f0;height: auto;}
+	.qr-box{padding-top: 110px;}
+	.job-title{display: block;}
+	#Contact-box{
+		padding: 20px 0 0;
+		width: 90%;
+		margin: 0 auto;
+	}
+}
