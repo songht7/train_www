@@ -47,7 +47,7 @@ function sendMail() {
 		var result = {};
 		var SendMail = {
 			"url": "http://www.spacehu.com/space/mail/mail.php?leo=",
-			"email": ["public@jobpgroup.com"],
+			"email": ["Ke.xu@jobpgroup.com"],
 			"testEmail": ["407794660@qq.com"]
 		}
 		$.post({
@@ -56,14 +56,23 @@ function sendMail() {
 			data: data,
 			dataType: "json",
 			success: function(res) {
+				//console.log("post-suc：", res)
 				result = res
-				if (res.success) {}
+				if (res.success) {
+					$("#ErrTip").show().html("申请信息已提交至管理员！");
+				} else {
+					$("#ErrTip").show().html("申请失败，请重试！");
+				}
 			},
 			error: (function(err) {
-				//console.log(err)
+				//console.log("post-err：", err)
+				$("#ErrTip").show().html("申请失败，请重试！");
 				result = err
 			}),
 			complete: (function() {
+				setTimeout(function() {
+					$("#ErrTip").hide().html("");
+				}, 2000)
 				//console.log("complete");
 			})
 		});
