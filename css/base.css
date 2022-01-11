@@ -36,7 +36,7 @@ body{background-size: 100%}
 .page-footer{
 	height: auto;background-image: none;background-color:#1191D0;
 }
-.copyright{text-align: center;padding: 50px 0;color: #FFFFFF;}
+.copyright{text-align: center;padding: 50px 0;color: #FFFFFF;line-height: 1.6;}
 .copyright a{color: #FFFFFF}
 #ErrTip{display: none; position: absolute;z-index: 2;width: 95%;padding: 10px 2.5%;bottom:10%;left: 0;background:rgba(250,0,0,0.6);text-align: center;color: #fff;font-size:24px;line-height: 1.4;}
 .job-title{display: none;font-size:32px;line-height: 2;}
